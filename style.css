@@ -18,3 +18,12 @@
   height: 50vh;
   background-repeat: none;
 }
+.navbar li a{
+  font-weight: 600;
+
+}
+.navbar li a:hover{
+  background: #ff004f;
+  font-weight: 800;
+  color: #2d2d2d;
+}
