@@ -15,7 +15,7 @@
   background-repeat: none;
 }
 #home3{
-  background-image: url("https://carolinaocoee.com/wp-content/uploads/2024/06/forest-temperate-nantahala-carolina-outfitters.jpg");
+  background-image: url("./images/home3.avif");
   height: 50vh;
   background-repeat: none;
   background-size: cover;
@@ -54,4 +54,10 @@
 #para{
   font-size: 1.1rem;
   font-weight: 500;
+}
+#scards{
+  transition: 0.5s;
+}
+#scards:hover{
+  transform: translateY(-15px);
 }
