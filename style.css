@@ -10,14 +10,15 @@
   background-repeat:none;
 }
 #home2{
-  background: url("https://www.shutterstock.com/image-vector/dinosaur-jungle-background-layered-landscape-260nw-2470747561.jpg");
-  height: 30vh;
+  background: url("./images/home2.jpg");
+  height: 40vh;
   background-repeat: none;
 }
 #home3{
   background-image: url("https://carolinaocoee.com/wp-content/uploads/2024/06/forest-temperate-nantahala-carolina-outfitters.jpg");
   height: 50vh;
   background-repeat: none;
+  background-size: cover;
 }
 .navbar li a{
   font-weight: 600;
@@ -44,4 +45,13 @@
 #cards:hover{
   transform: scale(1.2,1.2);
 
+}
+#title2{
+  font-size: 2.3rem;
+  font-weight: 700;
+  text-shadow: 0 0 10px #f2f2f2;
+}
+#para{
+  font-size: 1.1rem;
+  font-weight: 500;
 }
