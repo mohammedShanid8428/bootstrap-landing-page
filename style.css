@@ -15,8 +15,8 @@
   background-repeat: none;
 }
 #home3{
-  background-image: url("./images/home3.avif");
-  height: 50vh;
+  background-image: url("./images/home4.avif");
+  height: 70vh;
   background-repeat: none;
   background-size: cover;
 }
@@ -60,4 +60,8 @@
 }
 #scards:hover{
   transform: translateY(-15px);
+}
+.form-content input,.form-content textarea{
+  background-color: rgba(255,255,255,0.3);
+
 }

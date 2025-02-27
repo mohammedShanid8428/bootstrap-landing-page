@@ -165,7 +165,7 @@
     <div class="card h-50 rounded-3 border-3 shadow-sm border-dark" style="width: 60rem;" id="cards">
       <img src="./images/home3.avif" alt="" style="height: 300px;">
       <div class="card-body bg-dark">
-        <h5 class="card-title text-light">Serene Mountain Landscape</h5>
+        <h5 class="card-title text-danger">Serene Mountain Landscape</h5>
         <p class="card-text text-light">This image showcases a stunning mountain landscape with a layered silhouette
           effect, depicting rolling hills and dense pine forests. The scene is illuminated by a warm, pastel-hued
           sunrise or sunset, casting a soft, tranquil glow over the peaks. The artistic style gives a peaceful and
@@ -179,26 +179,30 @@
   </div>
 
   <!--contact form-->
-  <div class="container-fluid d-flex justify-content-center align-items-center" id="home3">
-    <div>
-      <h3 class="text-center text-light">contact form</h3>
-      <form action="">
-        <div class="d-flex justify-content-between">
-          <div class="form-group me-5">
-            <input type="text" class="form-control  pe-5" id="name" placeholder=" Name" style="width: 200%;">
-            <input type="email" class="form-control mt-3 pe-5 " id="email" placeholder="email">
-            <input type="text" class="form-control mt-3 pe-5 " id="subject" placeholder="subjet">
-          </div>
-          <div>
-            <textarea name="text" id="text" placeholder="your message here.." class="h-100"
-              style="width: 300%;"></textarea>
-          </div>
+  <div class="container-fluid d-flex justify-content-center align-items-center mt-5" id="home3">
+    <div class="contact-content text-center w-50 ">
+      <h3 class="text-light">Contact Form</h3>
+      <h6 class="text-light mt-3">A contact form is an essential feature of any website, allowing users to easily communicate with the website
+        owner, business, or support team. It typically includes fields for entering a name, email address, phone number,
+        subject, and message, ensuring that inquiries are clear and well-organized.</h6>
+      <div class="form-content">
+        <form action="">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control rounded-1  border-1 shadow-sm " id="name" placeholder=" Name" ">
+              <input type="email" class="form-control mt-4   rounded-1 border-1 shadow-sm" id="email" placeholder="email">
+              <input type="text" class="form-control mt-4 rounded-1 border-1 shadow-sm" id="subject" placeholder="subjet">
 
-        </div>
-      </form>
+            </div>
+            <div class="col text-start">
+              <textarea class="form-control rounded-1 border-1 shadow-sm " name="text" id="text" placeholder="your message here.." rows="6" cols="5"></textarea>
+              <button class="btn btn-light border mt-3 px-3 rounded-1">submit</button>
+
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
-
-
   </div>
 
 
